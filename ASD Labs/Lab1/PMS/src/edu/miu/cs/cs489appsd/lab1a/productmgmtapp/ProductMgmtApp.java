@@ -1,6 +1,7 @@
 package edu.miu.cs.cs489appsd.lab1a.productmgmtapp;
 
-//import com.google.gson.Gson;
+
+import com.google.gson.Gson;
 import edu.miu.cs.cs489appsd.lab1a.productmgmtapp.model.Product;
 import edu.miu.cs.cs489appsd.lab1a.productmgmtapp.util.DateUtil;
 import org.w3c.dom.Document;
@@ -41,9 +42,13 @@ public class ProductMgmtApp {
             case "JSON":
                 System.out.println("Printing products in JSON format:");
                 // Implement JSON printing logic
-               /* Gson gson = new Gson();
+
+
+               Gson gson = new Gson();
                 String json = gson.toJson(products);
-                System.out.println(json);*/
+                System.out.println(json);
+
+
                 break;
             case "XML":
                 System.out.println("Printing products in XML format:");

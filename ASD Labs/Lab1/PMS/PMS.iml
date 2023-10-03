@@ -23,9 +23,13 @@
           <root url="jar://$MODULE_DIR$/json-1.8.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ideaLibSources/json-1.8-sources.jar!/" />
+        </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="json-1.8" level="project" />
+    <orderEntry type="library" name="google.code.gson" level="project" />
   </component>
   <component name="SonarLintModuleSettings">
     <option name="uniqueId" value="6df90bef-6a62-440c-ab78-aada0e3c6dff" />
